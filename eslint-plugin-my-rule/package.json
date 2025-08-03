@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-myrule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --platform=node --outfile=dist/index.js",
+    "build:watch": "pnpm build --watch"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.25.8",
+    "eslint": "^9.32.0",
+    "tsx": "^4.20.3"
+  }
+}
